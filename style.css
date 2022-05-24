@@ -1,0 +1,123 @@
+#navbar {
+    font-size: 6vh;
+    width : 100%;
+  
+    background-color: red;
+    position : fixed;
+    overflow : hidden;
+    top: 0px;
+    height : 7vh;
+    z-index: 3;
+}
+#navbar a {
+    float : right;
+    color : white;
+    margin-left: 12px;
+    margin-right : 12px;
+    margin-top : 2px;
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+#navbar a:hover {
+    color : yellow;
+    transform: scale(1.1);
+}
+#welcome-section {
+    display : flex;
+    justify-content : center;
+    width : 100%;
+    height : 100vh;
+    background: repeating-linear-gradient(90deg,rgba(179, 179, 61, 0.534) 20px,rgb(104, 172, 172) 40px,rgb(207, 204, 204) 60px,rgb(179, 153, 157) 80px );
+    text-align: center;
+
+}
+#welcome-section div {
+    color : red;
+    
+    
+}
+
+#welcome-section div  h1{
+    font-size: 7vh;
+    color : blue;
+}
+
+#welcome-section div  h2{
+    font-size: 5vh;
+    color : black;
+}
+#projects {
+    position: relative;
+     
+}
+figcaption {
+    text-align : center;
+    text-decoration: none;
+    color : white;
+    font-size: 30px;
+}
+#allproject {
+    display : flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width : 98%;
+    height : auto;
+    justify-content: space-around;
+}
+#allproject div {
+    width : 550px;
+    height : auto;
+    border : 2px solid gray; 
+    text-align: center;
+    background-color: darkgrey;
+    margin-bottom: 20px;
+
+}
+@media screen and (max-width : 650px  ){
+    #allproject div {
+        width : 96%;
+        height : auto;
+        border : 2px solid gray; 
+    }
+}
+#allproject div img {
+    width : 96%;
+    height : auto; 
+    overflow: hidden;
+}
+#projects {
+    background-color: grey;
+}
+#projects h1 {
+    text-align: center;
+    font-size: 40px;
+    color : white;
+}
+#last{ 
+    position : relative;
+    width : 100%;
+    text-align: center;
+    height : 60vh;
+    border : 2px brown solid;
+    background-color: wheat;
+ position : relative;
+  top : 10px;
+    
+}
+section h1 div a img {
+    height : 30px;
+}
+section h1  {
+    font-size: 30px;
+    margin-top: 30vh;
+}
+section h1 div a {
+      text-decoration: none;
+}
+section h1 div {
+    display: inline;
+}
+section h1 div a:hover {
+    color : indigo;
+    transform : scale(1.1);
+}
